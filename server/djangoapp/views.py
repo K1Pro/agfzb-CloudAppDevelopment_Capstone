@@ -113,6 +113,7 @@ def registration_request(request):
         else:
             return render(request, 'djangoapp/registration.html', context)
 
+
 # Update the `get_dealerships` view to render the index page with a list of dealerships
 def get_dealerships(request):
     context = {}
@@ -127,4 +128,3 @@ def get_dealerships(request):
 # Create a `add_review` view to submit a review
 # def add_review(request, dealer_id):
 # ...
-
